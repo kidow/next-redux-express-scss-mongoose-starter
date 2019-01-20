@@ -2,5 +2,17 @@
   "name": "next-redux-express-scss-starter",
   "version": "1.0.0",
   "main": "server.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "module-alias": "^2.1.0",
+    "next": "^7.0.2",
+    "next-redux-wrapper": "^2.1.0",
+    "next-routes": "^1.4.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
+  }
 }
