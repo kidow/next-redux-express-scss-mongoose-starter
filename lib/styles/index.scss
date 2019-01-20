@@ -1,0 +1,17 @@
+@import './color.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $oc-gray-1;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
