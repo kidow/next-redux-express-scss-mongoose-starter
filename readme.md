@@ -50,14 +50,14 @@ class CustomApp extends App {
           <title>MERNS</title>
         </Head>
         <Component {...pageProps} />
-        {/* <Provider store={store}> <-
-          <Component {...pageProps} /> <-
-        </Provider> */} <-
+        {/* <Provider store={store}> <----------
+          <Component {...pageProps} /> <----------
+        </Provider> */} <--------------
       </Container>
     )
   }
 }
 
-// export default withRedux(makeStore)(CustomApp) <-
+// export default withRedux(makeStore)(CustomApp) <-----------
 export default CustomApp
 ```
